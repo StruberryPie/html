@@ -1,1 +1,68 @@
-<!-- ...crickets... -->
+<html>
+    <body>
+        <h1>Registration form</h1>
+        <form>
+            <div>
+                <label>
+                    Username
+                    <input type="text" required/>
+                </label>
+                <label>
+                    password
+                    <input type="text" required/>
+                </label>
+                <label>
+                    Email
+                    <input type="text" required/>
+                </label>
+            </div>
+            <h2>Which taxi do you require</h2>
+            <div>
+                <label>
+                    <input type="radio" value="car" required/>
+                    Car
+                </label>
+                <label>
+                    <input type="radio" value="van" required/>
+                    van
+                </label>
+                <label>
+                    <input type="radio" value="tuk tuk" required/>
+                    Tuk Tuk
+                </label>
+            </div>
+            <h2>Choose your extras</h2>
+            <div>
+                <label>
+                    <input type="checkbox"/>
+                    Baby seat
+                </label>
+                <label>
+                    <input type="checkbox"/>
+                    Wheelchair access
+                </label>
+                <label>
+                    <input type="checkbox"/>
+                    Priviacy windows
+                </label>
+            </div>
+            <h2>Where would you like us to pick you up</h2>
+            <div>
+                <label>
+                    Pickup Location
+                    <select>
+                        <option value="">Select one</option>
+                    </select>
+                </label>
+            </div>
+            <h2>Additional Instructions </h2>
+            <div>
+                <label>
+                    Special
+                    <textarea placeholder="provide special instructions here"></textarea>
+                    <input type="submit" />
+                </label>
+            </div>
+        </form>
+    </body>
+</html>
